@@ -24,17 +24,7 @@ function setup()
 function draw() 
 {
   background(51);
-
-  push();
-  imageMode(CENTER);
-  if(fruit!=null){
-    image(food,fruit.position.x,fruit.position.y,70,70);
-  }
-  pop();
-
-  rope.show();
   Engine.update(engine);
-  ground.show();
    
 }
 
