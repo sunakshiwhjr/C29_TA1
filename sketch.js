@@ -7,8 +7,8 @@ const Body = Matter.Body;
 const Composites = Matter.Composites;
 const Composite = Matter.Composite;
 
-let engine;
-let world;
+var engine;
+var world;
 
 function setup() 
 {
